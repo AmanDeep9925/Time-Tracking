@@ -123,6 +123,7 @@ const selfCare = document.querySelector("#self-care .card-body");
 const cardList = [];
 cardList.push({ title: "Work", element: work });
 cardList.push({ title: "Play", element: play });
+cardList.push({ title: "Study", element: study });
 cardList.push({ title: "Exercise", element: exercise });
 cardList.push({ title: "Social", element: social });
 cardList.push({ title: "Self Care", element: selfCare });
