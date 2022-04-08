@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- * Main -->
+
+    <main class="main-container">
+      <!-- * Profile -->
+
+      <div class="time-profile-container">
+        <!-- * User Container -->
+
+        <div class="user--container">
+          <header class="user-info-header">
+            <img src="./images/image-jeremy.png" alt="Jeremy" />
+
+            <div class="profile-info">
+              <p>Report for</p>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </header>
+
+          <footer class="user-info-footer">
+            <ul class="user-info-time-period">
+              <li id="daily" class="time-period active">Daily</li>
+              <li id="weekly" class="time-period">Weekly</li>
+              <li id="monthly" class="time-period">Monthly</li>
+            </ul>
+          </footer>
+        </div>
+
+        <!-- * Activities Container -->
+
+        <div class="activity-card-container">
+          <div id="work" class="activity-card bg-work">
+            <img src="./images/icon-work.svg" alt="Work" class="card-image" />
+            <div class="card-main card">
+              <header class="card-header">
+                <h2>Work</h2>
+                <img
+                  src="./images/icon-ellipsis.svg"
+                  alt="icon-ellipsis"
+                  class="elipsis"
+                />
+              </header>
+              <div class="card-body">
+                <h3>5 hrs</h3>
+                <p class="previous-time-text">Last Day - 7</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="play" class="activity-card bg-play">
+            <img src="./images/icon-play.svg" alt="Work" class="card-image" />
+            <div class="card-main card">
+              <header class="card-header">
+                <h2>Play</h2>
+                <img
+                  src="./images/icon-ellipsis.svg"
+                  alt="icon-ellipsis"
+                  class="elipsis"
+                />
+              </header>
+              <div class="card-body">
+                <h3>1 hrs</h3>
+                <p class="previous-time-text">Last Day - 2</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="study" class="activity-card bg-study">
+            <img src="./images/icon-study.svg" alt="Work" class="card-image" />
+            <div class="card-main card">
+              <header class="card-header">
+                <h2>Study</h2>
+                <img
+                  src="./images/icon-ellipsis.svg"
+                  alt="icon-ellipsis"
+                  class="elipsis"
+                />
+              </header>
+              <div class="card-body">
+                <h3>0 hrs</h3>
+                <p class="previous-time-text">Last Day - 1</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="exercise" class="activity-card bg-exercise">
+            <img
+              src="./images/icon-exercise.svg"
+              alt="Work"
+              class="card-image"
+            />
+            <div class="card-main card">
+              <header class="card-header">
+                <h2>Exercise</h2>
+                <img
+                  src="./images/icon-ellipsis.svg"
+                  alt="icon-ellipsis"
+                  class="elipsis"
+                />
+              </header>
+              <div class="card-body">
+                <h3>1 hrs</h3>
+                <p class="previous-time-text">Last Day - 1</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="social" class="activity-card bg-social">
+            <img src="./images/icon-social.svg" alt="Work" class="card-image" />
+            <div class="card-main card">
+              <header class="card-header">
+                <h2>Social</h2>
+                <img
+                  src="./images/icon-ellipsis.svg"
+                  alt="icon-ellipsis"
+                  class="elipsis"
+                />
+              </header>
+              <div class="card-body">
+                <h3>1 hrs</h3>
+                <p class="previous-time-text">Last Day - 3</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="self-care" class="activity-card bg-self-care">
+            <img
+              src="./images/icon-self-care.svg"
+              alt="Work"
+              class="card-image"
+            />
+            <div class="card-main card">
+              <header class="card-header">
+                <h2>Self care</h2>
+                <img
+                  src="./images/icon-ellipsis.svg"
+                  alt="icon-ellipsis"
+                  class="elipsis"
+                />
+              </header>
+              <div class="card-body">
+                <h3>0 hrs</h3>
+                <p class="previous-time-text">Last Day - 1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
+  </body>
+</html>
